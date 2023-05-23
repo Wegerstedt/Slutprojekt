@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: #DBB6D7;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.w50 {
+    width: 50%;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.row img {
+    width: 300px;
+}
+
+.overlap {
+    display: grid;
+    place-items: center;
+}
+
+.overlap a {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.overlap > *{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: cetner;
+    background: #C79FC6;
+    border-bottom: 1px solid black;
+}
+
+header a {
+    padding: 10px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+header .links {
+    display: flex;
+    gap: 10px;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+}
